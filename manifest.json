@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Justin's Chrome Extension",
+  "description": "Go Sharks Go!",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html",
+   "default_title" : "Click to open!"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
